@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18faf97b86964ee1b1ddb5a8d3776186, type: 3}
+  m_Name: VisualConfig
+  m_EditorClassIdentifier: 
+  _blockPrefab: {fileID: 836413866798016297, guid: be5c3020b0a75c042a716c11537438a7, type: 3}
+  _shooterPrefab: {fileID: 8825738998479990418, guid: fafe039646353984c96cdac9a28391cd, type: 3}
+  _projectilePrefab: {fileID: 5606263307898339469, guid: c5435057ed319894295b80141a1848e6, type: 3}
+  _levelContainerPrefab: {fileID: 4595201176730838854, guid: e2af027095e5a0c49b9f44a3e35c3d07, type: 3}
+  _blueMaterial: {fileID: 2100000, guid: c763d20cc62d99f4eb317da0080f5608, type: 2}
+  _greenMaterial: {fileID: 2100000, guid: 9855b85cf7dbb4642b9603c62138ec5c, type: 2}
+  _orangeMaterial: {fileID: 2100000, guid: 754f7ac8ddf84ef4e88eabae37508f1d, type: 2}
+  _pinkMaterial: {fileID: 2100000, guid: d3b4b526b63b0144988944054481ab21, type: 2}
+  _yellowMaterial: {fileID: 2100000, guid: 5bea6b973dc0a9e479ccebf1cd210a0f, type: 2}
+  _purpleMaterial: {fileID: 2100000, guid: 790bc976c02bfab40b321a95f534e97d, type: 2}
+  _redMaterial: {fileID: 2100000, guid: 91eced71703b9614f86d2c4b158cbfcf, type: 2}
+  _boardWidth: 10
+  _boardHeight: 16
+  _shooterCellSpacingMultiplier: 2
+  _blockColumnCount: 10
+  _shooterColumnCount: 5
+  _blockColumnSpacing: 0.32
+  _moveDuration: 0.25
+  _projectileSpeed: 0.25
+  _colorChangeDuration: 0.4
+  _disabledColor: {r: 1, g: 1, b: 1, a: 1}
+  _shooterScaleDownEase: 27
+  _shooterRotateDuration: 0.1
+  _shooterRotationResetDuration: 1
+  _outLineThickness: 0.03
+  _moveOutDistance: -10
+  _moveOutDuration: 0.5
+  _shooterPunchAmount: 0.2
+  _shooterPunchDuration: 0.2
+  _blockShiftDuration: 0.3
+  _blockShiftEase: 6
+  _blockScaleDownDuration: 0.25
+  _blockScaleDownEase: 27
+  _shooterShiftDuration: 0.3
+  _shooterShiftEase: 6
+  _viewBackgroundAlpha: 0.8
+  _viewFadeDuration: 0.5
+  _buttonScaleUpDuration: 0.5
+  _buttonScaleUpEase: 27
+  _buttonScaleUpDelay: 0.5
